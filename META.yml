@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                   WWW-Scraper-ISBN-BarnesNoble_Driver
-version:                0.16
+version:                0.17
 abstract:               Search driver for the Barnes and Noble online book catalog
 author:
   - Barbie <barbie@cpan.org>
@@ -27,7 +27,7 @@ build_requires:
 provides:
   WWW::Scraper::ISBN::BarnesNoble_Driver:
     file:     lib/WWW/Scraper/ISBN/BarnesNoble_Driver.pm
-    version:  0.16
+    version:  0.17
 no_index:
   directory:
     - t
@@ -36,6 +36,7 @@ no_index:
 resources:
   license:    http://www.perlfoundation.org/artistic_license_2_0
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=WWW-Scraper-ISBN-BarnesNoble_Driver
+  repository: http://github.com/barbie/www-scraper-isbn-barnesnoble_driver
 
 meta-spec:
    version:   1.4
